@@ -413,7 +413,7 @@ Setting deep \(default false\) param to true will extend existing translations i
 So omitting deep and overwrite will overwrite all existing translations with the one provided in resources. Using deep you can choose to keep existing nested translation and to overwrite those with the new ones.
 
 ```javascript
-i18next.addResourceBundle('en', 'translations', {
+i18next.addResourceBundle('en', 'translation', {
   key: 'value',
 }, true, true);
 ```
